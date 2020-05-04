@@ -1,0 +1,32 @@
+body{
+  background-color: #00a1ab;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+h2{
+  text-align: center;
+}
+
+
+p{
+  font-size: 18px;
+}
+
+#profile{
+  border-radius: 100%;
+}
+
+.about-me{
+  text-align: left;
+}
+
+.logos{
+  margin: 0 auto;
+}
+
+.skills-table{
+  margin: 0 auto;
+
+}
