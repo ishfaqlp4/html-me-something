@@ -11,8 +11,28 @@
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D5Y000001brDo">
-<input type=hidden name="retURL" value="https://ishfaqlp4.github.io/html-me-something/">
-    </form>
+<input type=hidden name="retURL" value="https://ishfaqlp4.github.io/html-me-something/whatever">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="ishfaqlp4@gmail.com">     -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
    
 </body>
 </html>
